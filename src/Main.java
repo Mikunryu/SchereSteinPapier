@@ -42,14 +42,11 @@ public class Main {
                         System.out.println("Du hast gewonnen!");
                     }
                 }
-                System.out.println("Hi Chris");
                 System.out.println("Willst du noch eine Runde spielen? (j/n)");
                 String erneutSpielen = scanner.nextLine();
 
                 if (!erneutSpielen.equals("j")) {
                     break; //Sobald eine andere Antwort als j eingegeben wird, ist das Programm beendet.
-
-
                 }
             }
     }
